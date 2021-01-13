@@ -1,0 +1,13 @@
+.region-header {
+  margin-top: 2%;
+}
+
+.region-header .block-system-branding-block {
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.region-header .block-system-branding-block img {
+  max-width: 150px;
+}

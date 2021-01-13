@@ -1,0 +1,17 @@
+name: DemoTheme
+type: theme
+base theme: classy
+description: A flexible theme with a responsive, mobile-first layout.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - demotheme/global
+regions:
+  header: 'Header'
+  menu: 'menu'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  content_down: 'Content down'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

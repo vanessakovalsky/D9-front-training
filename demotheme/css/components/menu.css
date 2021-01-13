@@ -1,0 +1,25 @@
+.menu--main {
+  width: 70%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu--main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd;
+}
+
+.menu--main ul li {
+  display: inline-block;
+}
+
+.menu--main ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
