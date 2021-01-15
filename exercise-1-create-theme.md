@@ -18,14 +18,16 @@ cette adresse : https://github.com/vanessakovalsky/d9-boatmanagement
 ##  Activer le debug de Twig : 
 * Dans sites/default copier le fichier default.services.yml en services.yml
 * Dans le fichier services.yml faites les modifications suivante dans la config twig : 
-* * debug: true
-* * auto_reload: true
-* * cache: false
+``̀`yml
+debug: true
+auto_reload: true
+cache: false
+```
 * /!\ cela désactive uniquement le cache de twig mais certains fichiers reste mis en cache par drupal.
 * Pour désactiver le cache de drupal complètement : 
 * * Dans sites copier le fichier example.settings.local et renommer la copie en settings.local
 * * Dans le settings.php décommenter les lignes suivantes :
-```
+```php
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
