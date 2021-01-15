@@ -39,7 +39,7 @@ vendor/bin/drupal generate:theme
 ```
 * /!\ Lors de la génération laisser 8.X pour la version du coeur.
 * Une fois la génération terminée, rajouter dans le fichier demotheme.info.yml la ligne suivante en dessous de la ligne core 
-``ỳml
+```yml
 core_version_requirement: ^8 || ^9
 ```
 * Modifier les regions du thèmes présents dans le montheme.info.yml pour ne laisser que les région suivante :
