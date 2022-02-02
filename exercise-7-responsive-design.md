@@ -70,7 +70,6 @@ montheme.wide:
 * Les menus standards de Drupal permettent déjà de s'afficher en responsive nativement.
 * Certains modules permettent d'aller plus loin : 
 * * Menu Block https://www.drupal.org/project/menu_block 
-* * Better Jump Menus https://www.drupal.org/project/jump_menu 
 * * Superfish : https://www.drupal.org/project/superfish 
 
 -> Félicitations vous avez toutes les cartes en main pour adapter l'affichage de votre site au mobile.
